@@ -6,7 +6,7 @@ variable "do_token" {
 
 
   type = string
-  default = "1ce739f0d77657e41b56673da9f785ae7c0514926a5ddd37bc895f4fb2da4213"
+  default = " I need secrets manager"
 }
 
 variable "do_region" {
