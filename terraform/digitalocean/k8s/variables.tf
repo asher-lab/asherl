@@ -6,7 +6,7 @@ variable "do_token" {
 
 
   type = string
-  default = "I need secrets manager"
+  default = "1ce739f0d77657e41b56673da9f785ae7c0514926a5ddd37bc895f4fb2da4213"
 }
 
 variable "do_region" {
@@ -36,15 +36,17 @@ variable "cluster_tags" {
 
 variable "cluster_default_node_size" {
   description = "The size of the droplets in the default node pool in the cluster"
+  default = "s-2vcpu-4gb"
 }
 
 variable "cluster_default_node_count" {
   description = "The number of nodes in the default node pool in the cluster"
+  default = 3
 }
 
 variable "cluster_default_node_tags" {
   description = "Specific tags for the node pool in the cluster - the tags from the cluster are also applied automatically"
-  default     = []
+  default     = ["a", "b", "c"]
 }
 
 variable "kubeconfig_path" {
