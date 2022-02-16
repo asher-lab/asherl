@@ -3,5 +3,6 @@ This template is based on: https://github.com/jaxxstorm/terraform-digitalocean-k
 <br>
 
 doctl kubernetes options versions
-
+doctl compute size list
+doctl compute region list
 <br>
